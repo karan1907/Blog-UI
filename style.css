@@ -3,6 +3,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
+  line-height: 1.6;
 }
 img {
   width: 100%;
@@ -49,6 +50,8 @@ strong {
   color: #1792d2;
   font-size: 0.75rem;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .article-title {
   font-size: 1.5rem;
@@ -61,6 +64,7 @@ strong {
   color: #1792d2;
   text-decoration: none;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 .article-info {
   margin: 2em 0;
@@ -95,8 +99,8 @@ header {
   text-align: center;
 }
 footer {
-  background: #143774;
-  color: white;
+  background: #345480;
+  color: rgba(255, 255, 255, 0.65);
   text-align: center;
   padding: 3em 0;
 }
@@ -116,6 +120,7 @@ nav a {
   color: #707070;
   font-weight: 700;
   padding: 0.25em 0;
+  letter-spacing: 1px;
 }
 nav a:hover,
 nav a:focus {
@@ -155,6 +160,7 @@ nav a:focus {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .widget-title {
@@ -177,6 +183,9 @@ nav a:focus {
   order: -1;
 }
 @media (min-width: 675px) {
+  header {
+    text-align: left;
+  }
   .container-flex {
     flex-direction: row;
   }
